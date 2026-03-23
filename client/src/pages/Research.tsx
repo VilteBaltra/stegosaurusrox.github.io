@@ -1,24 +1,24 @@
 export default function Research() {
   const projects = [
     {
-      title: "BrainHealth: Ageing Well",
+      title: "BrainHealth: Ageing starts at birth",
       status: "Active",
-      description: "A €1.5 million EU-funded project investigating brain aging and mental health across the lifespan. Using data from over 78,000 individuals, we aim to understand the genetic and environmental factors that promote a healthy brain from birth to old age.",
-      tags: ["Brain Aging", "Lifespan", "Neuroimaging", "Genetics"],
-      funders: ["European Union"]
+      description: "A €1.5 million EU-/UKRI-funded project investigating brain aging and mental health across the lifespan. Using data from over 78,000 individuals, we aim to understand the genetic and environmental factors that promote a healthy brain from birth to old age.",
+      tags: ["Brain Aging", "Lifespan", "Neuroimaging", "Epigenetics"],
+      funders: ["European Union / UKRI"]
+    },
+	{
+      title: "The glue that holds the pieces together: Unlocking Cognitive Health in Psychotic Disorders",
+      status: "Active",
+      description: "A £3.5 million Wellcome-funded project to tackle cognitive impairment in psychotic disorders. Working with lived experience experts, this project combines advanced computational brain imaging methods with experimental mouse models, paving the way for earlier interventions, better treatments, and a deeper understanding of cognitive decline in psychotic disorders.",
+      tags: ["Psychosis", "Cognition", "Proteomics", "Neuroimaging"],
+      funders: ["Wellcome"]
     },
     {
-      title: "Epigenetics of Neurodevelopment",
+      title: "The MIND consortium: Epigenetics of Neurodevelopment",
       status: "Active",
-      description: "Examining how prenatal and childhood environmental factors influence DNA methylation and subsequent brain structure and mental health outcomes. This multi-cohort study seeks to identify early epigenetic markers of psychiatric risk.",
-      tags: ["Epigenetics", "DNA Methylation", "Development", "Mental Health"],
-      funders: ["Various"]
-    },
-    {
-      title: "Causal Inference in Mental Health",
-      status: "Active",
-      description: "Using large-scale openly accessible resources and methods like Mendelian randomization to strengthen causal inference in the epidemiology of mental health and neurodevelopment. This work helps distinguish causal risk factors from mere associations.",
-      tags: ["Mendelian Randomization", "Causal Inference", "Bioinformatics"],
+      description: "The MIND consortium aims to better understand the potential role of DNA methylation in brain development and mental health, by combining epigenetics and neuroimaging research.",
+      tags: ["Epigenetics", "DNA Methylation", "Neuroimaging", "Development", "Mental Health"],
       funders: ["Various"]
     }
   ];
