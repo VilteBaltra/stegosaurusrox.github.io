@@ -1,3 +1,4 @@
+
 import { Link } from "wouter";
 import { ArrowRight, BrainCircuit, Users, BookOpen } from "lucide-react";
 import heroBg from "@/assets/hero-bg.png";
@@ -50,8 +51,8 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider mt-1">Individuals Studied</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-serif text-primary">€1.5m</p>
-                  <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider mt-1">EU Funding</p>
+                  <p className="text-3xl font-serif text-primary">£4.7m</p>
+                  <p className="text-sm text-muted-foreground font-medium uppercase tracking-wider mt-1">Funding</p>
                 </div>
               </div>
             </div>
@@ -84,6 +85,17 @@ export default function Home() {
                   <p className="text-sm font-semibold">Lifespan Focus</p>
                   <p className="text-xs text-muted-foreground">Birth to old age</p>
                 </div>
+			  </div>
+
+              <div className="absolute -left-1/10 bottom-1/20 bg-background/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-border/50 flex items-center gap-3 animate-in slide-in-from-right-4 duration-700 delay-700 fade-in fill-mode-both">
+                <div className="h-10 w-10 bg-secondary rounded-full flex items-center justify-center">
+                  <BookOpen className="h-5 w-5 text-secondary-foreground" />
+                </div>
+                <div>
+                  <p className="text-sm font-semibold">Epigenetics</p>
+                  <p className="text-xs text-muted-foreground">Test</p>
+                </div>
+
               </div>
             </div>
           </div>
@@ -151,8 +163,8 @@ export default function Home() {
                 <img src={buildingPhoto} alt="University of Bath Building" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-secondary p-6 rounded-xl shadow-lg hidden md:block max-w-xs">
-                <p className="font-serif italic text-primary-foreground/80 text-lg">
-                  "Science is built of facts the way a house is built of bricks."
+                <p className="font-serif italic text-slate-900/80 text-lg">
+                  "We need to find better ways of supporting people to live longer, healthier, and happier lives."
                 </p>
               </div>
             </div>
@@ -168,9 +180,6 @@ export default function Home() {
                 We are actively analyzing large-scale multi-cohort data and welcome inquiries from prospective graduate students and postdoctoral researchers.
               </p>
               <div className="pt-4">
-                 <button className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8">
-                  Participate in a Study
-                </button>
               </div>
             </div>
           </div>
