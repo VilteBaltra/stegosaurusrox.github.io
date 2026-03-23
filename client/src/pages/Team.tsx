@@ -1,4 +1,4 @@
-import estherPortrait from "@assets/image_1773831860999.png"; 
+import estherPortrait from "@assets/esther-portrait2.jpg"; 
 import marlenePortrait from "@assets/image_1773831955808.png";
 import fayePortrait from "@assets/image_1773832067639.png";
 import zoePortrait from "@assets/image_1773832538100.png";
