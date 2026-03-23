@@ -15,15 +15,14 @@ export default function Footer() {
             <p>10 West, University of Bath</p>
             <p>Claverton Down</p>
             <p>Bath, BA2 7AY, UK</p>
-            <p className="pt-2">estherslab@bath.ac.uk</p>
+            <p className="pt-2">e.walton@bath.ac.uk</p>
           </address>
         </div>
         <div>
           <h4 className="font-medium mb-4 uppercase tracking-wider text-sm text-secondary">Links</h4>
           <ul className="space-y-2 text-primary-foreground/70">
-            <li><a href="#" className="hover:text-white transition-colors">University of Bath</a></li>
-            <li><a href="#" className="hover:text-white transition-colors">Department of Psychology</a></li>
-            <li><a href="#" className="hover:text-white transition-colors">Participate in a Study</a></li>
+            <li><a href="https://www.bath.ac.uk/staff/" className="hover:text-white transition-colors">University of Bath</a></li>
+            <li><a href="https://www.bath.ac.uk/departments/department-of-psychology/" className="hover:text-white transition-colors">Department of Psychology</a></li>
           </ul>
         </div>
       </div>
